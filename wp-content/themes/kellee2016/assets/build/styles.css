@@ -420,7 +420,7 @@ table {
 
 .button {
   border: 0;
-  background-color: #88BEC4;
+  background-color: #1A4266;
   color: #FFF;
   font-family: "Poppins", sans-serif;
   padding: 5px;
@@ -583,10 +583,10 @@ header {
         font-family: "Poppins", sans-serif;
         padding: 10px; }
         header ul li a:hover {
-          color: #88BEC4; }
+          color: #1A4266; }
 
 footer {
-  background-color: #88BEC4;
+  background-color: #1A4266;
   color: #FFF;
   padding: 40px 0;
   text-align: center; }
@@ -654,7 +654,7 @@ form {
     moz-box-shadow: 0px 2px 20px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 2px 20px -10px rgba(0, 0, 0, 0.75);
     border: 0;
-    background-color: #88BEC4;
+    background-color: #1A4266;
     color: #FFF;
     font-family: "Poppins", sans-serif;
     padding: 5px;
@@ -666,7 +666,7 @@ form {
       transition: all 0.5s ease; }
   form .wpcf7-response-output {
     background-color: #FFF;
-    color: #88BEC4;
+    color: #1A4266;
     margin: 0 0.5em 3em; }
 
 .code-snippet {
@@ -678,7 +678,7 @@ form {
     margin: 0; }
 
 .hero {
-  background: url(../img/hero1.jpg) no-repeat center center;
+  background: url(../img/km-background-mobile.jpg) no-repeat center center;
   webkit-background-size: cover;
   moz-background-size: cover;
   background-size: cover;
@@ -687,7 +687,7 @@ form {
   text-align: center; }
   @media (min-width: 720px) {
     .hero {
-      background: url(../img/hero1.jpg) no-repeat center center fixed;
+      background: url(../img/km-background.jpg) no-repeat center center fixed;
       webkit-background-size: cover;
       moz-background-size: cover;
       background-size: cover; } }
@@ -744,7 +744,7 @@ form {
     display: block; }
 
 .tech {
-  background-color: #88BEC4;
+  background-color: #1A4266;
   webkit-background-size: cover;
   moz-background-size: cover;
   background-size: cover;
@@ -781,7 +781,7 @@ form {
     width: 41.66667%;
     float: left;
     background-color: #FFF;
-    color: #88BEC4;
+    color: #1A4266;
     margin: 0 4%;
     transition: all 0.5s ease; }
     .tech .button:hover {
@@ -833,27 +833,62 @@ form {
     line-height: 1; }
   .portfolio .grid {
     display: block;
-    position: relative; }
+    position: relative;
+    font-size: 0; }
     .portfolio .grid:before, .portfolio .grid:after {
       content: '';
       display: table; }
     .portfolio .grid:after {
       clear: both; }
   .portfolio .grid-item {
-    width: 33.33333%;
-    float: left;
-    padding: 10px;
-    box-sizing: border-box; }
+    width: 48%;
+    margin: 1%;
+    display: inline-block;
+    line-height: 1;
+    font-size: 0;
+    box-sizing: border-box;
+    position: relative; }
+    @media (min-width: 720px) {
+      .portfolio .grid-item {
+        width: 31.33333%; } }
+    .portfolio .grid-item p {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      margin: 0;
+      display: none;
+      z-index: 1;
+      padding: 16% 10px 10% 10px;
+      color: #FFF;
+      font-family: "Poppins", sans-serif; }
+      @media (min-width: 720px) {
+        .portfolio .grid-item p {
+          padding: 18% 10px 10% 10px; } }
+    .portfolio .grid-item:hover p {
+      display: block; }
+    .portfolio .grid-item:hover:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: #1A4266;
+      line-height: 1;
+      font-size: 0;
+      opacity: .9; }
 
 .contact {
-  background: url(../img/hero1.jpg) no-repeat center center;
+  background: url(../img/km-background-mobile.jpg) no-repeat center center;
   webkit-background-size: cover;
   moz-background-size: cover;
   background-size: cover;
   min-height: 100vh; }
   @media (min-width: 720px) {
     .contact {
-      background: url(../img/hero1.jpg) no-repeat center center fixed;
+      background: url(../img/km-background.jpg) no-repeat center center fixed;
       webkit-background-size: cover;
       moz-background-size: cover;
       background-size: cover; } }
@@ -888,7 +923,7 @@ form {
     line-height: 1;
     padding-top: 40px; }
   .about-page a {
-    color: #88BEC4;
+    color: #1A4266;
     transition: all 0.5s ease;
     text-decoration: none; }
     .about-page a:hover {

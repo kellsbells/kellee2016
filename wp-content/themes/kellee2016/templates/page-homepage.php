@@ -139,7 +139,7 @@ get_header();
 					  	$projects_query = new WP_Query( $project_args );
 					  	while ( $projects_query->have_posts() ): $projects_query->the_post();
 					?>
-						<a href="<?php echo the_permalink(); ?>" class="grid-item"><?php the_post_thumbnail(); ?></a>
+						<a href="<?php echo the_permalink(); ?>" class="grid-item"><?php the_post_thumbnail(); ?><p><?php the_title(); ?></p></a>
 					<?php endwhile; ?>
 				</div>	
 			</div>
