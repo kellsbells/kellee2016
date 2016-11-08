@@ -27,12 +27,10 @@
     	font-size: 100px;
     	font-size: 10rem;
     	line-height: .9;
-    	text-shadow: 0 0 10px $black, 0 0 10px $white;
     }
 
     h2 {
     	font-family: $font-secondary;
-    	text-shadow: 0 0 6px $black, 0 0 6px $white;
         padding-bottom: 20px;
     }
 
@@ -46,9 +44,11 @@
             max-height: 30px;
             border-radius: 100%;
             padding: 2px;
-            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-            moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+
+            @include breakpoint ($break-medium) {
+                max-width: 40px;
+                max-height: 40px;
+            }
         }
     }
 }
@@ -75,10 +75,19 @@
 
     .imagetext {
     	.image {
-    		float: left;
-    		width: 40%;
-    		padding: 5px 15px 0px 0;
-            max-width: 200px;
+    		width: 100%;
+            padding: 30px;
+
+            @include breakpoint ($break-medium) {
+                float: left;
+                width: 40%;
+                padding: 5px 15px 0px 0;
+                max-width: 200px;
+            }
+
+            @include breakpoint ($break-large) {
+                width: 25%;
+            }
     	}
 
     	.text {
@@ -112,7 +121,6 @@
     h2 {
     	font-size: 50px;
     	font-size: 5rem;
-    	text-shadow: 0 0 10px $black, 0 0 10px $white;
     	text-align: center;
     	font-family: $font-primary;
         padding-bottom: 40px;
@@ -294,7 +302,6 @@
     	padding-top: 17vh;
     	text-align: center;
     	color: $white;
-    	text-shadow: 0 0 10px $black, 0 0 10px $white;
     }
 }
 

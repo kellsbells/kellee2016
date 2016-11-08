@@ -63,7 +63,7 @@ get_header();
 				<div class="imagetext">
 					<img src="<?php echo $imagedir ?>/kellee.jpg" class="image">
 					<div class="text">
-						<p>Hi! My name is Kellee. I'm so excited that you're here on my site! To think that I build things every day that affect people I've never even met has to be the coolest feeling in the world, which I guess explains social medias like Instagram and Twitter. I love what I do. I find satisfaction solving problems and making a difference in the world of web. I'm still baffled at the amount of things there are to learn in this industry, but I'm enjoying the journey. I've been incredibly blessed to work with some of the most talented programmers as I strive to contantly surround myself with such people and valuable learning experiences. I love seeing myself progress as a developer. I get bored when I'm not challenged. When I'm not coding you'll probably find me hiking and thinking about coding, or feeding a Netflix addiction and feeling guilty for not coding. I also have a load of cool cat t-shirts.</p>
+						<p>Hi! My name is Kellee. I'm so excited that you're here on my site! I am so passionate about what I do! If there's one thing I could convey on my portfolio it's that I truly love to code. I live to solve problems and build beautiful things. Web development allows me to touch the lives of people around the world, I just love that! I still have so much to learn, and always will, as I become the best web developer I can be. But if you're looking for someone who will work hard and have a positve attitude you've come to the right place.</p>
 					</div>
 				</div>
 				<a href="/about" class="button">Read More</a>
@@ -79,30 +79,37 @@ get_header();
 					<img src="<?php echo $imagedir ?>/icons/css3.png">
 					<img src="<?php echo $imagedir ?>/icons/javascript.png">
 					<img src="<?php echo $imagedir ?>/icons/jquery.png">
-					<img src="<?php echo $imagedir ?>/icons/angular.png">
 					<img src="<?php echo $imagedir ?>/icons/wordpress.png">
-					<img src="<?php echo $imagedir ?>/icons/php.png">
 					<img src="<?php echo $imagedir ?>/icons/git.png">
 					<img src="<?php echo $imagedir ?>/icons/sass.png">
+					<img src="<?php echo $imagedir ?>/icons/react.png">
+					<img src="<?php echo $imagedir ?>/icons/angular.png">
 					<img src="<?php echo $imagedir ?>/icons/susy.png">
 					<img src="<?php echo $imagedir ?>/icons/gulp.png">
-					<img src="<?php echo $imagedir ?>/icons/shopify.png">
 					<img src="<?php echo $imagedir ?>/icons/photoshop.png">
-					<img src="<?php echo $imagedir ?>/icons/bootstrap.png">
+					<img src="<?php echo $imagedir ?>/icons/php.png">
+					<img src="<?php echo $imagedir ?>/icons/shopify.png">
 				</div>
 				<div class="cta-buttons">
 					<button class="button js-toggle-work">View Work History</button>
-					<a href="<?php echo $imagedir ?>/Kellee-Martins-Resume.pdf" download class="button">Download Resume</a>
+					<a href="<?php echo $imagedir ?>/Kellee_Martins_Resume.pdf" download class="button">Download Resume</a>
 				</div>	
 				<div class="work-history">
 					<div class="job">
+						<h3><a href="http://voltagead.com/">FleetCreature</a>: Freelance Web Developer</h3>
+						<p>CTO: Erik Frelund <a href="mailto:erik@fleetcreature.com">erik@fleetcreature.com</a></p>
+					</div>
+					<div class="job">
 						<h3><a href="http://voltagead.com/">Voltage Advertising</a>: Web Developer</h3>
 						<p>Senior: Randy Lybbert <a href="tel:7069948262">(706) 994-8262</a></p>
-						<p>Mentor & Former Senior: Craig Freeman <a href="tel:6195592580">(619) 559-2580</a></p>
+						<p>Mentor and Senior: Craig Freeman <a href="tel:6195592580">(619) 559-2580</a></p>
 					</div>
 					<div class="job">
 						<h3><a href="http://ekragency.com/">Eli Kirk</a>/Novell: HTML Web Developer</h3>
 						<p>Supervisor: Jarid Love <a href="tel:8013779321">(801) 377-9321</a></p>
+					</div>
+					<div class="job">
+						<h3><a href="http://ekragency.com/">Isomer</a>/Designer/Developer</h3>
 					</div>
 					<div class="job">
 						<h3><a href="http://heritagemakers.com/">Heritage Makers</a>: Supervising Customer Support Agent</h3>
